@@ -1,0 +1,3 @@
+﻿using GeometryLibrary;
+
+GeometryTest.Run();
