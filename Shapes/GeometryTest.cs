@@ -8,7 +8,7 @@ namespace GeometryLibrary
     {
         public static bool AreEqual(double expected, double actual, double epsilon) => Math.Abs(expected - actual) < epsilon;
 
-        static List<Shapes> shapes = [new Circles(1), new Triangles(3, 4, 5), new Triangles(5, 5, 5)];
+        static List<Shapes> shapes = [new Circles(), new Triangles(3, 4, 5), new Triangles(5, 5, 5)]; // конструктор по-умолчанию для класса Circles() возвращает круг с радиусом=1 
         static Shapes circle = new Circles(5);
         static Shapes triangle = new Triangles(3, 4, 5);
 
