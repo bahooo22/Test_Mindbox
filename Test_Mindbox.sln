@@ -5,7 +5,12 @@ VisualStudioVersion = 17.9.34526.213
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csproj", "{DF2ACD77-4F95-48D6-BD46-D888F95D11BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRun", "TestRun\TestRun.csproj", "{429C85C0-DEEA-4E5B-A985-06D410348D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRun", "TestRun\TestRun.csproj", "{429C85C0-DEEA-4E5B-A985-06D410348D6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECF431E3-27CB-4B37-981B-100ED48D3927}"
+	ProjectSection(SolutionItems) = preProject
+		Query.sql = Query.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
