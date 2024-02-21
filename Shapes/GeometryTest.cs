@@ -8,13 +8,13 @@ namespace GeometryLibrary
     {
         public static bool AreEqual(double expected, double actual, double epsilon) => Math.Abs(expected - actual) < epsilon;
 
-            static List<Shapes> shapes = [new Circles(1), new Triangles(3, 4, 5), new Triangles(5,5,5)];
+        static List<Shapes> shapes = [new Circles(1), new Triangles(3, 4, 5), new Triangles(5, 5, 5)];
         static Shapes circle = new Circles(5);
         static Shapes triangle = new Triangles(3, 4, 5);
 
-        static double[] expectedAreas = [Math.PI,6,Math.Sqrt(3)*25/4];
+        static double[] expectedAreas = [Math.PI, 6, Math.Sqrt(3) * 25 / 4];
 
-        
+
         // start tests
         public static void Run()
         {
@@ -36,12 +36,12 @@ namespace GeometryLibrary
                     Console.WriteLine($"Triangle {i + 1}: is right = {isRight}");
                 }
             }
-            
+
 
         }
 
-            // circle test
-            [Test]
+        // circle test
+        [Test]
         public void TestCircleArea()
         {
             // arrange

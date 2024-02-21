@@ -36,7 +36,7 @@
         public override double GetArea()
         {
             // Формула Герона: Площадь треугольника через полупериметр 
-            double p = (SideA + SideB + SideC) / 2; 
+            double p = (SideA + SideB + SideC) / 2;
             return Math.Sqrt(p * (p - SideA) * (p - SideB) * (p - SideC));
         }
 
